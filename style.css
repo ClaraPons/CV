@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Hammersmith";
+    src: url(./police/Hammersmith_One.zip);
+}
+
+body{
+    background-color: #f3f4f4;
+    font-family: "Hammersmith", Arial, Helvetica, sans-serif;
+    margin: 0px 200px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #3ed4cc;
+    text-align: center;
+    margin: 20PX 20px 10px 20px;
+}
+
+header h2 {
+    font-size: 17px;
+    font-weight: 100;
+    color: #3f6d8b;
+    text-align: center;
+    line-height: 140%;
+    padding: 0px 50px 10px 50px;
+    border-bottom: 5px solid #3ed4cc;
+}
