@@ -14,7 +14,7 @@ header h1 {
     font-weight: 700;
     color: #3ed4cc;
     text-align: center;
-    margin: 20PX 20px 10px 20px;
+    margin: 40px 20px 20px 20px;
 }
 
 header h2 {
@@ -22,7 +22,62 @@ header h2 {
     font-weight: 100;
     color: #3f6d8b;
     text-align: center;
-    line-height: 140%;
-    padding: 0px 50px 10px 50px;
+    line-height: 170%;
+    padding: 0px 60px 30px 60px;
     border-bottom: 5px solid #3ed4cc;
 }
+
+main{
+    display: flex;
+    padding-top: 15px;
+}
+
+aside{
+    width: 600px;
+    padding-right: 30px;
+}
+
+.right-bloc{
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3ed4cc;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    letter-spacing: 5px;
+}
+
+.profil p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #3f6d8b;
+    line-height: 170%;
+    text-align: justify;
+}
+
+.profil b{
+    font-size: 15px;
+    font-weight: 100;
+    color: #3f6d8b;
+}
+
+.contact{
+    color: #3f6d8b;
+}
+
+.contact li{
+    display: flex;
+    gap: 20px;
+    padding: 7px;
+
+}
+
+.contact li img{
+    width: 25px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
