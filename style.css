@@ -59,19 +59,30 @@ h3 {
 }
 
 .profil b{
-    font-size: 15px;
-    font-weight: 100;
+    font-weight: 700;
     color: #3f6d8b;
 }
 
 .contact{
     color: #3f6d8b;
+    font-size: 16px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #3f6d8b;
+}
+
+.contact a:hover{
+    color: #3ed4cc;
+    text-decoration: underline;
 }
 
 .contact li{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding: 7px;
+    align-items: center;
 
 }
 
@@ -81,3 +92,30 @@ h3 {
     padding-bottom: 5px;
 }
 
+.skills li{
+    display: flex;
+    gap: 40px;
+    padding: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills{
+    color: #3f6d8b;
+    font-size: 16px;
+}
+
+progress {
+    background: #f3f4f4;
+}
+
+progress::-webkit-progress-value {
+    background: #3ed4cc;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background: white;
+    border: 1px solid #3ed4cc;
+    border-radius: 20px;
+}
